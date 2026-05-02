@@ -1,4 +1,0 @@
-vim -c "set encoding=utf-8" ~/yahboom_ws/src/largemodel/config/yahboom.yaml
-sudo shutdown -h now 
-cd /root/yahboomcar_ros2_ws                
-sudo nmcli --ask dev wifi connect                      

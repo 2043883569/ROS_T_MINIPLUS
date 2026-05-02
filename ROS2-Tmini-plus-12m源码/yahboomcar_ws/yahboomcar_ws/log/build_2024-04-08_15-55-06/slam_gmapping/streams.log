@@ -1,0 +1,55 @@
+[0.041s] Invoking command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/opt/ros/humble: /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/slam_gmapping -- -j4 -l4
+[0.091s] [0m -fuse-ld=lld -Wl,--disable-new-dtags[0m
+[0.091s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.324s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.373s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.375s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.383s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.486s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.624s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[0.633s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.753s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.756s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.003s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.649s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.655s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.657s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.669s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.800s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.948s] -- Found openslam_gmapping: 0.1.2 (/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[1.949s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.060s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.062s] -- Configured cppcheck include dirs: /home/yahboom/yahboomcar_ws/src/slam_gmapping/include
+[2.063s] -- Configured cppcheck exclude dirs and/or files: 
+[2.064s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.064s] -- Added test 'lint_cmake' to check CMake code style
+[2.065s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.067s] -- Added test 'uncrustify' to check C / C++ code style
+[2.067s] -- Configured uncrustify additional arguments: 
+[2.068s] -- Added test 'xmllint' to check XML markup files
+[2.068s] -- Configuring done
+[2.075s] [33mCMake Warning (dev) at CMakeLists.txt:46 (add_executable):
+[2.076s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[2.076s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[2.077s]   command to set the policy and suppress this warning.
+[2.077s] 
+[2.078s]   File:
+[2.079s] 
+[2.080s]     /home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp
+[2.081s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.082s] [0m
+[2.099s] -- Generating done
+[2.102s] -- Build files have been written to: /home/yahboom/yahboomcar_ws/build/slam_gmapping
+[2.178s] [35m[1mConsolidate compiler generated dependencies of target slam_gmapping[0m
+[2.222s] [ 50%] [32mBuilding CXX object CMakeFiles/transform.dir/src/transform.cpp.o[0m
+[2.223s] [ 75%] Built target slam_gmapping
+[2.258s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kslam_gmapping/transform.h: No such file or directory
+[2.258s]     3 | #include [01;31m[K"slam_gmapping/transform.h"[m[K
+[2.258s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.258s] compilation terminated.
+[2.260s] gmake[2]: *** [CMakeFiles/transform.dir/build.make:76: CMakeFiles/transform.dir/src/transform.cpp.o] Error 1
+[2.262s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/transform.dir/all] Error 2
+[2.263s] gmake: *** [Makefile:146: all] Error 2
+[2.269s] Invoked command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping' returned '2': CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/opt/ros/humble: /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/slam_gmapping -- -j4 -l4

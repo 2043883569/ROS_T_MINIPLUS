@@ -1,0 +1,333 @@
+[0.190s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.190s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7eef8bf0c1f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7eef8c0b4640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7eef8c0b4640>>)
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.395s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yahboom/yahboomcar_ws'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/openslam_gmapping) by extension 'ros'
+[0.426s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openslam_gmapping' with type 'ros.ament_cmake' and name 'openslam_gmapping'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ros'
+[0.431s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ros'
+[0.432s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping' with type 'ros.ament_cmake' and name 'slam_gmapping'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extension 'ros'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver-humble' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.460s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/yahboom/yahboomcar_ws/install
+[0.462s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.527s] DEBUG:colcon.colcon_core.verb:Building package 'openslam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/yahboomcar_ws/build/openslam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/yahboomcar_ws/install/openslam_gmapping', 'merge_install': False, 'path': '/home/yahboom/yahboomcar_ws/src/openslam_gmapping', 'symlink_install': False, 'test_result_base': None}
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.527s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/yahboomcar_ws/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/yahboom/yahboomcar_ws/src/rf2o_laser_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.528s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/yahboom/yahboomcar_ws/src/ydlidar_ros2_driver-humble', 'symlink_install': False, 'test_result_base': None}
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.529s] DEBUG:colcon.colcon_core.verb:Building package 'slam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/yahboomcar_ws/build/slam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/yahboomcar_ws/install/slam_gmapping', 'merge_install': False, 'path': '/home/yahboom/yahboomcar_ws/src/slam_gmapping', 'symlink_install': False, 'test_result_base': None}
+[0.529s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.532s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.533s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahboom/yahboomcar_ws/src/openslam_gmapping' with build type 'ament_cmake'
+[0.533s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahboom/yahboomcar_ws/src/openslam_gmapping'
+[0.545s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.564s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahboom/yahboomcar_ws/src/rf2o_laser_odometry' with build type 'ament_cmake'
+[0.565s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahboom/yahboomcar_ws/src/rf2o_laser_odometry'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.578s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahboom/yahboomcar_ws/src/ydlidar_ros2_driver-humble' with build type 'ament_cmake'
+[0.579s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahboom/yahboomcar_ws/src/ydlidar_ros2_driver-humble'
+[0.580s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/yahboomcar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/openslam_gmapping -- -j4 -l4
+[0.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/yahboomcar_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/rf2o_laser_odometry -- -j4 -l4
+[0.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[0.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/yahboomcar_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/rf2o_laser_odometry -- -j4 -l4
+[0.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[0.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/yahboomcar_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/rf2o_laser_odometry
+[1.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/yahboomcar_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/rf2o_laser_odometry
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry' for CMake module files
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry' for CMake config files
+[1.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/lib'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/bin'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/bin'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[1.106s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[1.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver
+[1.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/yahboomcar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/openslam_gmapping -- -j4 -l4
+[1.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver' for CMake module files
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver' for CMake config files
+[1.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/lib'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/bin'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/bin'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/yahboomcar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/openslam_gmapping
+[1.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry' for CMake module files
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry' for CMake config files
+[1.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/lib'
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/bin'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/bin'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[1.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[1.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver' for CMake module files
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver' for CMake config files
+[1.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/lib'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/bin'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/bin'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.408s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping' for CMake module files
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping' for CMake config files
+[1.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/yahboomcar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/openslam_gmapping
+[1.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[1.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[1.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/bin'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/python3.10/site-packages'
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/bin'
+[1.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[1.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[1.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[1.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping' for CMake module files
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping' for CMake config files
+[1.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[1.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib'
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/bin'
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/python3.10/site-packages'
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/bin'
+[1.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[1.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[1.594s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahboom/yahboomcar_ws/src/slam_gmapping' with build type 'ament_cmake'
+[1.594s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahboom/yahboomcar_ws/src/slam_gmapping'
+[1.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/slam_gmapping -- -j4 -l4
+[1.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/slam_gmapping -- -j4 -l4
+[2.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/slam_gmapping
+[2.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping' for CMake module files
+[2.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/rf2o_laser_odometry:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/slam_gmapping
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping' for CMake config files
+[2.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[2.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping/lib'
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping/bin'
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[2.066s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping/lib/python3.10/site-packages'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping/bin'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.sh'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.bash'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[2.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[2.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping' for CMake module files
+[2.203s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping' for CMake config files
+[2.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[2.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[2.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping/lib'
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping/bin'
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[2.210s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping/lib/python3.10/site-packages'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/yahboomcar_ws/install/slam_gmapping/bin'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[2.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.sh'
+[2.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.bash'
+[2.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[2.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/yahboomcar_ws/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[2.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.220s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.220s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.220s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.241s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.241s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.241s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.299s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/yahboomcar_ws/install/local_setup.ps1'
+[2.301s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/yahboomcar_ws/install/_local_setup_util_ps1.py'
+[2.307s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/yahboomcar_ws/install/setup.ps1'
+[2.311s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/yahboomcar_ws/install/local_setup.sh'
+[2.313s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/yahboomcar_ws/install/_local_setup_util_sh.py'
+[2.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/yahboomcar_ws/install/setup.sh'
+[2.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/yahboomcar_ws/install/local_setup.bash'
+[2.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/yahboomcar_ws/install/setup.bash'
+[2.323s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/yahboomcar_ws/install/local_setup.zsh'
+[2.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/yahboomcar_ws/install/setup.zsh'

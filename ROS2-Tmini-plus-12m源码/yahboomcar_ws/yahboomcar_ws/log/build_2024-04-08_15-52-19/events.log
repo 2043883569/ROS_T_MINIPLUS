@@ -1,0 +1,713 @@
+[0.000000] (-) TimerEvent: {}
+[0.001796] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.002745] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.002857] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping')])}
+[0.002962] (openslam_gmapping) JobStarted: {'identifier': 'openslam_gmapping'}
+[0.026293] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.045524] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'cmake'}
+[0.047618] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'build'}
+[0.050233] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yahboom/yahboomcar_ws/build/openslam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/yahboom/yahboomcar_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:'), ('HOME', '/home/yahboom'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yahboom-virtual-machine:@/tmp/.ICE-unix/1670,unix/yahboom-virtual-machine:/tmp/.ICE-unix/1670'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0e62685_7509_44da_8faa_f7c699186ea5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O4UTL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/yahboomcar_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble:')]), 'shell': False}
+[0.066853] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.069535] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[0.070859] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:'), ('HOME', '/home/yahboom'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yahboom-virtual-machine:@/tmp/.ICE-unix/1670,unix/yahboom-virtual-machine:/tmp/.ICE-unix/1670'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0e62685_7509_44da_8faa_f7c699186ea5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O4UTL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble:')]), 'shell': False}
+[0.098873] (-) TimerEvent: {}
+[0.196901] (openslam_gmapping) StdoutLine: {'line': b'[ 13%] Built target utils\n'}
+[0.199201] (-) TimerEvent: {}
+[0.201131] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] Built target sensor_base\n'}
+[0.244227] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_client\n'}
+[0.244597] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_node\n'}
+[0.259857] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] Built target sensor_odometry\n'}
+[0.272516] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] Built target sensor_range\n'}
+[0.276281] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[0.299480] (-) TimerEvent: {}
+[0.345702] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] Built target scanmatcher\n'}
+[0.392468] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[0.399959] (-) TimerEvent: {}
+[0.413831] (openslam_gmapping) StdoutLine: {'line': b'[100%] Built target gridfastslam\n'}
+[0.417892] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:'), ('HOME', '/home/yahboom'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yahboom-virtual-machine:@/tmp/.ICE-unix/1670,unix/yahboom-virtual-machine:/tmp/.ICE-unix/1670'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0e62685_7509_44da_8faa_f7c699186ea5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O4UTL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/yahboomcar_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble:')]), 'shell': False}
+[0.442940] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.443318] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[0.444277] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[0.445115] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[0.445303] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch\n'}
+[0.445433] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[0.445553] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[0.445668] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[0.445788] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params\n'}
+[0.445922] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[0.446029] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[0.446101] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[0.446316] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[0.446394] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[0.446464] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[0.446536] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[0.446694] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[0.446819] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[0.447196] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[0.447352] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[0.447625] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup\n'}
+[0.447929] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[0.448495] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config\n'}
+[0.448740] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[0.449537] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[0.450828] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[0.452334] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[0.452889] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[0.453806] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[0.455122] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[0.455371] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[0.455486] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[0.455629] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[0.455958] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[0.456558] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[0.457325] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[0.458647] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[0.459596] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[0.460545] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[0.462042] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[0.500055] (-) TimerEvent: {}
+[0.590789] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'install'}
+[0.592720] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yahboom/yahboomcar_ws/build/openslam_gmapping'], 'cwd': '/home/yahboom/yahboomcar_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:'), ('HOME', '/home/yahboom'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yahboom-virtual-machine:@/tmp/.ICE-unix/1670,unix/yahboom-virtual-machine:/tmp/.ICE-unix/1670'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0e62685_7509_44da_8faa_f7c699186ea5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O4UTL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/yahboomcar_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble:')]), 'shell': False}
+[0.600505] (-) TimerEvent: {}
+[0.609575] (openslam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.610015] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[0.610800] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[0.611008] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/\n'}
+[0.611091] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping\n'}
+[0.611186] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid\n'}
+[0.611333] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h\n'}
+[0.611452] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h\n'}
+[0.611555] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h\n'}
+[0.611670] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/map.h\n'}
+[0.611783] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/particlefilter\n'}
+[0.611888] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h\n'}
+[0.612298] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor\n'}
+[0.612430] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry\n'}
+[0.612506] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h\n'}
+[0.612584] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h\n'}
+[0.612685] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base\n'}
+[0.612777] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h\n'}
+[0.612859] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h\n'}
+[0.612948] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range\n'}
+[0.613101] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h\n'}
+[0.613210] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h\n'}
+[0.613660] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam\n'}
+[0.613891] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h\n'}
+[0.614034] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h\n'}
+[0.614413] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx\n'}
+[0.614742] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/log\n'}
+[0.615127] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h\n'}
+[0.616380] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/log/configuration.h\n'}
+[0.617179] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher\n'}
+[0.617823] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h\n'}
+[0.619421] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h\n'}
+[0.619577] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h\n'}
+[0.619726] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils\n'}
+[0.619874] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/point.h\n'}
+[0.620021] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h\n'}
+[0.620168] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h\n'}
+[0.620315] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h\n'}
+[0.620522] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h\n'}
+[0.620679] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/stat.h\n'}
+[0.620830] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping\n'}
+[0.621089] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping\n'}
+[0.621340] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh\n'}
+[0.621551] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv\n'}
+[0.621841] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh\n'}
+[0.622097] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv\n'}
+[0.622355] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash\n'}
+[0.623868] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh\n'}
+[0.624840] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh\n'}
+[0.625514] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv\n'}
+[0.626066] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv\n'}
+[0.626298] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping\n'}
+[0.626517] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.626713] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.626910] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake\n'}
+[0.627016] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake\n'}
+[0.627260] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml\n'}
+[0.627365] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libgridfastslam.a\n'}
+[0.627587] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libscanmatcher.a\n'}
+[0.627824] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[0.628003] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[0.628271] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libsensor_base.a\n'}
+[0.628473] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[0.628650] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[0.628836] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libsensor_odometry.a\n'}
+[0.628917] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libsensor_range.a\n'}
+[0.628967] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libutils.a\n'}
+[0.629011] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[0.629061] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[0.644532] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[0.647731] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[0.701137] (-) TimerEvent: {}
+[0.802884] (-) TimerEvent: {}
+[0.904697] (-) TimerEvent: {}
+[0.926409] (openslam_gmapping) JobEnded: {'identifier': 'openslam_gmapping', 'rc': 0}
+[0.929457] (slam_gmapping) JobStarted: {'identifier': 'slam_gmapping'}
+[0.978187] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'cmake'}
+[0.982279] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '/home/yahboom/yahboomcar_ws/src/slam_gmapping', '-DCMAKE_INSTALL_PREFIX=/home/yahboom/yahboomcar_ws/install/slam_gmapping'], 'cwd': '/home/yahboom/yahboomcar_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:'), ('HOME', '/home/yahboom'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yahboom-virtual-machine:@/tmp/.ICE-unix/1670,unix/yahboom-virtual-machine:/tmp/.ICE-unix/1670'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0e62685_7509_44da_8faa_f7c699186ea5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O4UTL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/yahboomcar_ws/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/opt/ros/humble:')]), 'shell': False}
+[1.005336] (-) TimerEvent: {}
+[1.106640] (-) TimerEvent: {}
+[1.208762] (-) TimerEvent: {}
+[1.309702] (-) TimerEvent: {}
+[1.410496] (-) TimerEvent: {}
+[1.511620] (-) TimerEvent: {}
+[1.612912] (-) TimerEvent: {}
+[1.714676] (-) TimerEvent: {}
+[1.815736] (-) TimerEvent: {}
+[1.916707] (-) TimerEvent: {}
+[2.018129] (-) TimerEvent: {}
+[2.118887] (-) TimerEvent: {}
+[2.124234] (slam_gmapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.219084] (-) TimerEvent: {}
+[2.319672] (-) TimerEvent: {}
+[2.420546] (-) TimerEvent: {}
+[2.521692] (-) TimerEvent: {}
+[2.623650] (-) TimerEvent: {}
+[2.725541] (-) TimerEvent: {}
+[2.826606] (-) TimerEvent: {}
+[2.927864] (-) TimerEvent: {}
+[3.028792] (-) TimerEvent: {}
+[3.130104] (-) TimerEvent: {}
+[3.223754] (slam_gmapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.230102] (-) TimerEvent: {}
+[3.327779] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.330366] (-) TimerEvent: {}
+[3.431769] (-) TimerEvent: {}
+[3.533319] (-) TimerEvent: {}
+[3.634878] (-) TimerEvent: {}
+[3.730587] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.735296] (-) TimerEvent: {}
+[3.738708] (slam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.741359] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.766795] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.786046] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.835414] (-) TimerEvent: {}
+[3.935970] (-) TimerEvent: {}
+[4.037059] (-) TimerEvent: {}
+[4.138379] (-) TimerEvent: {}
+[4.204932] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.226351] (slam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.227840] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.231409] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.235705] (slam_gmapping) StderrLine: {'line': b'\x1b[0m -fuse-ld=lld -Wl,--disable-new-dtags\x1b[0m\n'}
+[4.238724] (-) TimerEvent: {}
+[4.289090] (slam_gmapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.339028] (-) TimerEvent: {}
+[4.440038] (-) TimerEvent: {}
+[4.541244] (-) TimerEvent: {}
+[4.642434] (-) TimerEvent: {}
+[4.743094] (-) TimerEvent: {}
+[4.752576] (slam_gmapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.843402] (-) TimerEvent: {}
+[4.944469] (-) TimerEvent: {}
+[5.045225] (-) TimerEvent: {}
+[5.146655] (-) TimerEvent: {}
+[5.247562] (-) TimerEvent: {}
+[5.319658] (slam_gmapping) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[5.348043] (-) TimerEvent: {}
+[5.450310] (-) TimerEvent: {}
+[5.551363] (-) TimerEvent: {}
+[5.652727] (-) TimerEvent: {}
+[5.658950] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.737827] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.753069] (-) TimerEvent: {}
+[5.815643] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.853309] (-) TimerEvent: {}
+[5.897758] (slam_gmapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.953564] (-) TimerEvent: {}
+[6.036356] (slam_gmapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.054102] (-) TimerEvent: {}
+[6.155349] (-) TimerEvent: {}
+[6.256773] (-) TimerEvent: {}
+[6.351986] (slam_gmapping) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[6.357617] (-) TimerEvent: {}
+[6.459682] (-) TimerEvent: {}
+[6.560832] (-) TimerEvent: {}
+[6.662024] (-) TimerEvent: {}
+[6.732888] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[6.762217] (-) TimerEvent: {}
+[6.863244] (-) TimerEvent: {}
+[6.964560] (-) TimerEvent: {}
+[6.996482] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[7.064969] (-) TimerEvent: {}
+[7.166209] (-) TimerEvent: {}
+[7.267213] (-) TimerEvent: {}
+[7.368830] (-) TimerEvent: {}
+[7.470612] (-) TimerEvent: {}
+[7.572327] (-) TimerEvent: {}
+[7.673346] (-) TimerEvent: {}
+[7.685296] (slam_gmapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.717979] (slam_gmapping) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.774637] (-) TimerEvent: {}
+[7.875943] (-) TimerEvent: {}
+[7.976980] (-) TimerEvent: {}
+[8.078566] (-) TimerEvent: {}
+[8.179619] (-) TimerEvent: {}
+[8.280766] (-) TimerEvent: {}
+[8.381832] (-) TimerEvent: {}
+[8.465114] (slam_gmapping) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.482257] (-) TimerEvent: {}
+[8.568600] (slam_gmapping) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.582608] (-) TimerEvent: {}
+[8.683541] (-) TimerEvent: {}
+[8.725737] (slam_gmapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.783847] (-) TimerEvent: {}
+[8.880388] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.884325] (-) TimerEvent: {}
+[8.985052] (-) TimerEvent: {}
+[9.085532] (-) TimerEvent: {}
+[9.186101] (-) TimerEvent: {}
+[9.273622] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.277120] (slam_gmapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.286327] (-) TimerEvent: {}
+[9.386777] (-) TimerEvent: {}
+[9.487623] (-) TimerEvent: {}
+[9.564721] (slam_gmapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.567160] (slam_gmapping) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.588039] (-) TimerEvent: {}
+[9.689826] (-) TimerEvent: {}
+[9.792865] (-) TimerEvent: {}
+[9.894576] (-) TimerEvent: {}
+[9.995241] (-) TimerEvent: {}
+[10.095846] (-) TimerEvent: {}
+[10.196496] (-) TimerEvent: {}
+[10.297571] (-) TimerEvent: {}
+[10.398843] (-) TimerEvent: {}
+[10.500330] (-) TimerEvent: {}
+[10.601103] (-) TimerEvent: {}
+[10.701515] (-) TimerEvent: {}
+[10.802408] (-) TimerEvent: {}
+[10.825334] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[10.903009] (-) TimerEvent: {}
+[10.930093] (slam_gmapping) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[10.941335] (slam_gmapping) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[10.943016] (slam_gmapping) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[11.003303] (-) TimerEvent: {}
+[11.004491] (slam_gmapping) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[11.103462] (-) TimerEvent: {}
+[11.202784] (slam_gmapping) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[11.203881] (-) TimerEvent: {}
+[11.305124] (-) TimerEvent: {}
+[11.406392] (-) TimerEvent: {}
+[11.411714] (slam_gmapping) StdoutLine: {'line': b'-- Found openslam_gmapping: 0.1.2 (/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)\n'}
+[11.453238] (slam_gmapping) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.506689] (-) TimerEvent: {}
+[11.608199] (-) TimerEvent: {}
+[11.709352] (-) TimerEvent: {}
+[11.802099] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.803266] (slam_gmapping) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/yahboom/yahboomcar_ws/src/slam_gmapping/include\n'}
+[11.803755] (slam_gmapping) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.808917] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.809525] (-) TimerEvent: {}
+[11.844288] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.848906] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[11.856210] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.857324] (slam_gmapping) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.860355] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.864452] (slam_gmapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.910080] (-) TimerEvent: {}
+[12.011129] (-) TimerEvent: {}
+[12.054594] (slam_gmapping) StdoutLine: {'line': b'-- Generating done\n'}
+[12.064245] (slam_gmapping) StdoutLine: {'line': b'-- Build files have been written to: /home/yahboom/yahboomcar_ws/build/slam_gmapping\n'}
+[12.094743] (slam_gmapping) CommandEnded: {'returncode': 0}
+[12.095708] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'build'}
+[12.096199] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yahboom/yahboomcar_ws/build/slam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/yahboom/yahboomcar_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:'), ('HOME', '/home/yahboom'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yahboom-virtual-machine:@/tmp/.ICE-unix/1670,unix/yahboom-virtual-machine:/tmp/.ICE-unix/1670'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0e62685_7509_44da_8faa_f7c699186ea5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O4UTL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/yahboomcar_ws/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/opt/ros/humble:')]), 'shell': False}
+[12.111387] (-) TimerEvent: {}
+[12.211962] (-) TimerEvent: {}
+[12.218155] (slam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o\x1b[0m\n'}
+[12.312284] (-) TimerEvent: {}
+[12.413308] (-) TimerEvent: {}
+[12.515021] (-) TimerEvent: {}
+[12.616475] (-) TimerEvent: {}
+[12.717604] (-) TimerEvent: {}
+[12.818823] (-) TimerEvent: {}
+[12.919774] (-) TimerEvent: {}
+[13.021012] (-) TimerEvent: {}
+[13.123417] (-) TimerEvent: {}
+[13.225269] (-) TimerEvent: {}
+[13.326030] (-) TimerEvent: {}
+[13.426674] (-) TimerEvent: {}
+[13.527236] (-) TimerEvent: {}
+[13.627997] (-) TimerEvent: {}
+[13.728894] (-) TimerEvent: {}
+[13.829535] (-) TimerEvent: {}
+[13.930897] (-) TimerEvent: {}
+[14.032202] (-) TimerEvent: {}
+[14.133672] (-) TimerEvent: {}
+[14.234636] (-) TimerEvent: {}
+[14.335456] (-) TimerEvent: {}
+[14.436023] (-) TimerEvent: {}
+[14.536513] (-) TimerEvent: {}
+[14.637308] (-) TimerEvent: {}
+[14.738680] (-) TimerEvent: {}
+[14.841027] (-) TimerEvent: {}
+[14.942318] (-) TimerEvent: {}
+[15.043602] (-) TimerEvent: {}
+[15.144642] (-) TimerEvent: {}
+[15.245491] (-) TimerEvent: {}
+[15.346571] (-) TimerEvent: {}
+[15.448328] (-) TimerEvent: {}
+[15.550241] (-) TimerEvent: {}
+[15.651269] (-) TimerEvent: {}
+[15.752258] (-) TimerEvent: {}
+[15.852782] (-) TimerEvent: {}
+[15.953414] (-) TimerEvent: {}
+[16.054662] (-) TimerEvent: {}
+[16.155657] (-) TimerEvent: {}
+[16.257808] (-) TimerEvent: {}
+[16.359629] (-) TimerEvent: {}
+[16.411593] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38\x1b[m\x1b[K,\n'}
+[16.412318] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[16.412873] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.413362] (slam_gmapping) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[16.413810] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[16.460008] (-) TimerEvent: {}
+[16.561130] (-) TimerEvent: {}
+[16.662092] (-) TimerEvent: {}
+[16.763287] (-) TimerEvent: {}
+[16.865211] (-) TimerEvent: {}
+[16.967432] (-) TimerEvent: {}
+[17.068530] (-) TimerEvent: {}
+[17.169219] (-) TimerEvent: {}
+[17.270341] (-) TimerEvent: {}
+[17.370961] (-) TimerEvent: {}
+[17.471940] (-) TimerEvent: {}
+[17.573414] (-) TimerEvent: {}
+[17.675298] (-) TimerEvent: {}
+[17.776440] (-) TimerEvent: {}
+[17.877444] (-) TimerEvent: {}
+[17.977978] (-) TimerEvent: {}
+[18.078817] (-) TimerEvent: {}
+[18.180175] (-) TimerEvent: {}
+[18.282276] (-) TimerEvent: {}
+[18.383413] (-) TimerEvent: {}
+[18.484007] (-) TimerEvent: {}
+[18.584715] (-) TimerEvent: {}
+[18.685536] (-) TimerEvent: {}
+[18.786050] (-) TimerEvent: {}
+[18.886677] (-) TimerEvent: {}
+[18.987079] (-) TimerEvent: {}
+[19.087821] (-) TimerEvent: {}
+[19.189493] (-) TimerEvent: {}
+[19.291460] (-) TimerEvent: {}
+[19.392441] (-) TimerEvent: {}
+[19.493836] (-) TimerEvent: {}
+[19.595295] (-) TimerEvent: {}
+[19.695918] (-) TimerEvent: {}
+[19.796446] (-) TimerEvent: {}
+[19.897168] (-) TimerEvent: {}
+[19.998169] (-) TimerEvent: {}
+[20.099448] (-) TimerEvent: {}
+[20.200408] (-) TimerEvent: {}
+[20.300912] (-) TimerEvent: {}
+[20.401328] (-) TimerEvent: {}
+[20.501743] (-) TimerEvent: {}
+[20.602233] (-) TimerEvent: {}
+[20.702641] (-) TimerEvent: {}
+[20.803107] (-) TimerEvent: {}
+[20.903765] (-) TimerEvent: {}
+[21.005015] (-) TimerEvent: {}
+[21.106434] (-) TimerEvent: {}
+[21.208146] (-) TimerEvent: {}
+[21.308970] (-) TimerEvent: {}
+[21.410004] (-) TimerEvent: {}
+[21.510752] (-) TimerEvent: {}
+[21.611411] (-) TimerEvent: {}
+[21.712074] (-) TimerEvent: {}
+[21.812639] (-) TimerEvent: {}
+[21.913116] (-) TimerEvent: {}
+[22.014037] (-) TimerEvent: {}
+[22.115194] (-) TimerEvent: {}
+[22.216395] (-) TimerEvent: {}
+[22.317065] (-) TimerEvent: {}
+[22.417593] (-) TimerEvent: {}
+[22.518115] (-) TimerEvent: {}
+[22.618502] (-) TimerEvent: {}
+[22.718958] (-) TimerEvent: {}
+[22.819542] (-) TimerEvent: {}
+[22.920228] (-) TimerEvent: {}
+[23.021824] (-) TimerEvent: {}
+[23.124377] (-) TimerEvent: {}
+[23.225239] (-) TimerEvent: {}
+[23.325988] (-) TimerEvent: {}
+[23.426732] (-) TimerEvent: {}
+[23.527817] (-) TimerEvent: {}
+[23.628644] (-) TimerEvent: {}
+[23.730060] (-) TimerEvent: {}
+[23.831368] (-) TimerEvent: {}
+[23.932218] (-) TimerEvent: {}
+[24.033297] (-) TimerEvent: {}
+[24.133800] (-) TimerEvent: {}
+[24.234851] (-) TimerEvent: {}
+[24.335807] (-) TimerEvent: {}
+[24.436236] (-) TimerEvent: {}
+[24.536713] (-) TimerEvent: {}
+[24.566799] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9\x1b[m\x1b[K,\n'}
+[24.567492] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[24.567578] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[24.567648] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.567725] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation\x07-Wmisleading-indentation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.567799] (slam_gmapping) StderrLine: {'line': b'  140 |         \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (count>0)\n'}
+[24.567848] (slam_gmapping) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[24.567889] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.567936] (slam_gmapping) StderrLine: {'line': b'  142 |                 \x1b[01;36m\x1b[Kout\x1b[m\x1b[K++;\n'}
+[24.568014] (slam_gmapping) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[24.636859] (-) TimerEvent: {}
+[24.737404] (-) TimerEvent: {}
+[24.838661] (-) TimerEvent: {}
+[24.940078] (-) TimerEvent: {}
+[25.040798] (-) TimerEvent: {}
+[25.141540] (-) TimerEvent: {}
+[25.242483] (-) TimerEvent: {}
+[25.343268] (-) TimerEvent: {}
+[25.443933] (-) TimerEvent: {}
+[25.544617] (-) TimerEvent: {}
+[25.645690] (-) TimerEvent: {}
+[25.746905] (-) TimerEvent: {}
+[25.848197] (-) TimerEvent: {}
+[25.949272] (-) TimerEvent: {}
+[26.050024] (-) TimerEvent: {}
+[26.150498] (-) TimerEvent: {}
+[26.250938] (-) TimerEvent: {}
+[26.351392] (-) TimerEvent: {}
+[26.451831] (-) TimerEvent: {}
+[26.552285] (-) TimerEvent: {}
+[26.652741] (-) TimerEvent: {}
+[26.753164] (-) TimerEvent: {}
+[26.853560] (-) TimerEvent: {}
+[26.954036] (-) TimerEvent: {}
+[27.055039] (-) TimerEvent: {}
+[27.156603] (-) TimerEvent: {}
+[27.258741] (-) TimerEvent: {}
+[27.359481] (-) TimerEvent: {}
+[27.460166] (-) TimerEvent: {}
+[27.561019] (-) TimerEvent: {}
+[27.662004] (-) TimerEvent: {}
+[27.762951] (-) TimerEvent: {}
+[27.864347] (-) TimerEvent: {}
+[27.965624] (-) TimerEvent: {}
+[28.066768] (-) TimerEvent: {}
+[28.167259] (-) TimerEvent: {}
+[28.267761] (-) TimerEvent: {}
+[28.368276] (-) TimerEvent: {}
+[28.468689] (-) TimerEvent: {}
+[28.569092] (-) TimerEvent: {}
+[28.669486] (-) TimerEvent: {}
+[28.769861] (-) TimerEvent: {}
+[28.870353] (-) TimerEvent: {}
+[28.970899] (-) TimerEvent: {}
+[29.071990] (-) TimerEvent: {}
+[29.173331] (-) TimerEvent: {}
+[29.274043] (-) TimerEvent: {}
+[29.374725] (-) TimerEvent: {}
+[29.475372] (-) TimerEvent: {}
+[29.576299] (-) TimerEvent: {}
+[29.676910] (-) TimerEvent: {}
+[29.777512] (-) TimerEvent: {}
+[29.878049] (-) TimerEvent: {}
+[29.978676] (-) TimerEvent: {}
+[30.079559] (-) TimerEvent: {}
+[30.180883] (-) TimerEvent: {}
+[30.282265] (-) TimerEvent: {}
+[30.384170] (-) TimerEvent: {}
+[30.484910] (-) TimerEvent: {}
+[30.585421] (-) TimerEvent: {}
+[30.685862] (-) TimerEvent: {}
+[30.786399] (-) TimerEvent: {}
+[30.886895] (-) TimerEvent: {}
+[30.987786] (-) TimerEvent: {}
+[31.088980] (-) TimerEvent: {}
+[31.190194] (-) TimerEvent: {}
+[31.292113] (-) TimerEvent: {}
+[31.392988] (-) TimerEvent: {}
+[31.493633] (-) TimerEvent: {}
+[31.594338] (-) TimerEvent: {}
+[31.694958] (-) TimerEvent: {}
+[31.795486] (-) TimerEvent: {}
+[31.896317] (-) TimerEvent: {}
+[31.997408] (-) TimerEvent: {}
+[32.098477] (-) TimerEvent: {}
+[32.198902] (-) TimerEvent: {}
+[32.299404] (-) TimerEvent: {}
+[32.399830] (-) TimerEvent: {}
+[32.500331] (-) TimerEvent: {}
+[32.601209] (-) TimerEvent: {}
+[32.701899] (-) TimerEvent: {}
+[32.802336] (-) TimerEvent: {}
+[32.902739] (-) TimerEvent: {}
+[33.003218] (-) TimerEvent: {}
+[33.103813] (-) TimerEvent: {}
+[33.204767] (-) TimerEvent: {}
+[33.305705] (-) TimerEvent: {}
+[33.406777] (-) TimerEvent: {}
+[33.507441] (-) TimerEvent: {}
+[33.608091] (-) TimerEvent: {}
+[33.708634] (-) TimerEvent: {}
+[33.809151] (-) TimerEvent: {}
+[33.909735] (-) TimerEvent: {}
+[34.010530] (-) TimerEvent: {}
+[34.111353] (-) TimerEvent: {}
+[34.211847] (-) TimerEvent: {}
+[34.312668] (-) TimerEvent: {}
+[34.414064] (-) TimerEvent: {}
+[34.514943] (-) TimerEvent: {}
+[34.615546] (-) TimerEvent: {}
+[34.715989] (-) TimerEvent: {}
+[34.816418] (-) TimerEvent: {}
+[34.917267] (-) TimerEvent: {}
+[35.018408] (-) TimerEvent: {}
+[35.118857] (-) TimerEvent: {}
+[35.219525] (-) TimerEvent: {}
+[35.320317] (-) TimerEvent: {}
+[35.421073] (-) TimerEvent: {}
+[35.522279] (-) TimerEvent: {}
+[35.623773] (-) TimerEvent: {}
+[35.724489] (-) TimerEvent: {}
+[35.825140] (-) TimerEvent: {}
+[35.925680] (-) TimerEvent: {}
+[36.026426] (-) TimerEvent: {}
+[36.127034] (-) TimerEvent: {}
+[36.227522] (-) TimerEvent: {}
+[36.327975] (-) TimerEvent: {}
+[36.428542] (-) TimerEvent: {}
+[36.529425] (-) TimerEvent: {}
+[36.631055] (-) TimerEvent: {}
+[36.732269] (-) TimerEvent: {}
+[36.834076] (-) TimerEvent: {}
+[36.935380] (-) TimerEvent: {}
+[37.036700] (-) TimerEvent: {}
+[37.137160] (-) TimerEvent: {}
+[37.238438] (-) TimerEvent: {}
+[37.339766] (-) TimerEvent: {}
+[37.440753] (-) TimerEvent: {}
+[37.541787] (-) TimerEvent: {}
+[37.642342] (-) TimerEvent: {}
+[37.742846] (-) TimerEvent: {}
+[37.843459] (-) TimerEvent: {}
+[37.944012] (-) TimerEvent: {}
+[38.044711] (-) TimerEvent: {}
+[38.145422] (-) TimerEvent: {}
+[38.246065] (-) TimerEvent: {}
+[38.347115] (-) TimerEvent: {}
+[38.448740] (-) TimerEvent: {}
+[38.551049] (-) TimerEvent: {}
+[38.652352] (-) TimerEvent: {}
+[38.754980] (-) TimerEvent: {}
+[38.855948] (-) TimerEvent: {}
+[38.956892] (-) TimerEvent: {}
+[39.057913] (-) TimerEvent: {}
+[39.159202] (-) TimerEvent: {}
+[39.259777] (-) TimerEvent: {}
+[39.360678] (-) TimerEvent: {}
+[39.461693] (-) TimerEvent: {}
+[39.563266] (-) TimerEvent: {}
+[39.664654] (-) TimerEvent: {}
+[39.767135] (-) TimerEvent: {}
+[39.868937] (-) TimerEvent: {}
+[39.969562] (-) TimerEvent: {}
+[40.070259] (-) TimerEvent: {}
+[40.171263] (-) TimerEvent: {}
+[40.272938] (-) TimerEvent: {}
+[40.375168] (-) TimerEvent: {}
+[40.475928] (-) TimerEvent: {}
+[40.576890] (-) TimerEvent: {}
+[40.677832] (-) TimerEvent: {}
+[40.779796] (-) TimerEvent: {}
+[40.880913] (-) TimerEvent: {}
+[40.982026] (-) TimerEvent: {}
+[41.082846] (-) TimerEvent: {}
+[41.184057] (-) TimerEvent: {}
+[41.284836] (-) TimerEvent: {}
+[41.385392] (-) TimerEvent: {}
+[41.485893] (-) TimerEvent: {}
+[41.586435] (-) TimerEvent: {}
+[41.686858] (-) TimerEvent: {}
+[41.787632] (-) TimerEvent: {}
+[41.888693] (-) TimerEvent: {}
+[41.990551] (-) TimerEvent: {}
+[42.091594] (-) TimerEvent: {}
+[42.192833] (-) TimerEvent: {}
+[42.294398] (-) TimerEvent: {}
+[42.394944] (-) TimerEvent: {}
+[42.495495] (-) TimerEvent: {}
+[42.596014] (-) TimerEvent: {}
+[42.697189] (-) TimerEvent: {}
+[42.798922] (-) TimerEvent: {}
+[42.900120] (-) TimerEvent: {}
+[43.001346] (-) TimerEvent: {}
+[43.101932] (-) TimerEvent: {}
+[43.202466] (-) TimerEvent: {}
+[43.303344] (-) TimerEvent: {}
+[43.403802] (-) TimerEvent: {}
+[43.504864] (-) TimerEvent: {}
+[43.606244] (-) TimerEvent: {}
+[43.707346] (-) TimerEvent: {}
+[43.808267] (-) TimerEvent: {}
+[43.908744] (-) TimerEvent: {}
+[44.009551] (-) TimerEvent: {}
+[44.084799] (slam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable slam_gmapping\x1b[0m\n'}
+[44.110050] (-) TimerEvent: {}
+[44.210849] (-) TimerEvent: {}
+[44.311749] (-) TimerEvent: {}
+[44.412901] (-) TimerEvent: {}
+[44.514979] (-) TimerEvent: {}
+[44.616933] (-) TimerEvent: {}
+[44.719215] (-) TimerEvent: {}
+[44.820105] (-) TimerEvent: {}
+[44.921293] (-) TimerEvent: {}
+[45.023617] (-) TimerEvent: {}
+[45.124838] (-) TimerEvent: {}
+[45.225728] (-) TimerEvent: {}
+[45.327441] (-) TimerEvent: {}
+[45.429300] (-) TimerEvent: {}
+[45.530544] (-) TimerEvent: {}
+[45.631873] (-) TimerEvent: {}
+[45.733758] (-) TimerEvent: {}
+[45.835740] (-) TimerEvent: {}
+[45.936524] (-) TimerEvent: {}
+[46.037556] (-) TimerEvent: {}
+[46.139594] (-) TimerEvent: {}
+[46.240717] (-) TimerEvent: {}
+[46.341362] (-) TimerEvent: {}
+[46.442099] (-) TimerEvent: {}
+[46.543364] (-) TimerEvent: {}
+[46.644117] (-) TimerEvent: {}
+[46.706922] (slam_gmapping) StdoutLine: {'line': b'[100%] Built target slam_gmapping\n'}
+[46.744428] (-) TimerEvent: {}
+[46.752216] (slam_gmapping) CommandEnded: {'returncode': 0}
+[46.844879] (-) TimerEvent: {}
+[46.946547] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'install'}
+[46.946903] (-) TimerEvent: {}
+[46.955242] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yahboom/yahboomcar_ws/build/slam_gmapping'], 'cwd': '/home/yahboom/yahboomcar_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:'), ('HOME', '/home/yahboom'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yahboom-virtual-machine:@/tmp/.ICE-unix/1670,unix/yahboom-virtual-machine:/tmp/.ICE-unix/1670'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0e62685_7509_44da_8faa_f7c699186ea5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O4UTL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/yahboomcar_ws/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6f06f7c7f97610fc5fb60216613a0b9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/opt/ros/humble:')]), 'shell': False}
+[47.008687] (slam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[47.009621] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping\n'}
+[47.025556] (slam_gmapping) StdoutLine: {'line': b'-- Set runtime path of "/home/yahboom/yahboomcar_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping" to ""\n'}
+[47.026138] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/launch\n'}
+[47.026716] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py\n'}
+[47.030052] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/launch\n'}
+[47.031327] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py\n'}
+[47.031678] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/params\n'}
+[47.031825] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/params/slam_gmapping.yaml\n'}
+[47.040686] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping\n'}
+[47.042007] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping\n'}
+[47.042748] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh\n'}
+[47.043598] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv\n'}
+[47.044483] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh\n'}
+[47.045414] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv\n'}
+[47.046022] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash\n'}
+[47.046918] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh\n'}
+[47.048258] (-) TimerEvent: {}
+[47.048945] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh\n'}
+[47.049759] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv\n'}
+[47.050325] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv\n'}
+[47.050721] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping\n'}
+[47.051522] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake\n'}
+[47.051778] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake\n'}
+[47.051992] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.xml\n'}
+[47.056795] (slam_gmapping) CommandEnded: {'returncode': 0}
+[47.148811] (-) TimerEvent: {}
+[47.252522] (-) TimerEvent: {}
+[47.275644] (slam_gmapping) JobEnded: {'identifier': 'slam_gmapping', 'rc': 0}
+[47.281418] (-) EventReactorShutdown: {}

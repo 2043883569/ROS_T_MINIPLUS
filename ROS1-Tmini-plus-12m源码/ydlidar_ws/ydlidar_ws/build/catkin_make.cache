@@ -1,0 +1,2 @@
+oradar_ros:rf2o_laser_odometry:ydlidar_ros_driver
+-DCATKIN_DEVEL_PREFIX=/home/yahboom/ydlidar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yahboom/ydlidar_ws/install -G Unix Makefiles

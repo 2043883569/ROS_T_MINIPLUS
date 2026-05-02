@@ -1,0 +1,551 @@
+[0.000000] (-) TimerEvent: {}
+[0.000873] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.001430] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping')])}
+[0.001634] (openslam_gmapping) JobStarted: {'identifier': 'openslam_gmapping'}
+[0.100407] (-) TimerEvent: {}
+[0.153022] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'cmake'}
+[0.155674] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'build'}
+[0.156924] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yahboom/yahboomcar_ws/build/openslam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/yahboom/yahboomcar_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yahboom'), ('OLDPWD', '/home/yahboom'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1567'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yahboom-virtual-machine:@/tmp/.ICE-unix/1547,unix/yahboom-virtual-machine:/tmp/.ICE-unix/1547'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae3af24f_b9f2_4324_9239_ea5db4abe30e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3NVRL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/yahboomcar_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.200815] (-) TimerEvent: {}
+[0.301588] (-) TimerEvent: {}
+[0.307498] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target utils\x1b[0m\n'}
+[0.309637] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_base\x1b[0m\n'}
+[0.350983] (openslam_gmapping) StdoutLine: {'line': b'[ 13%] Built target utils\n'}
+[0.353548] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] Built target sensor_base\n'}
+[0.391823] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_range\x1b[0m\n'}
+[0.396281] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_odometry\x1b[0m\n'}
+[0.402200] (-) TimerEvent: {}
+[0.437529] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] Built target sensor_range\n'}
+[0.444087] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] Built target sensor_odometry\n'}
+[0.467844] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target scanmatcher\x1b[0m\n'}
+[0.502504] (-) TimerEvent: {}
+[0.505839] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] Built target scanmatcher\n'}
+[0.540897] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gridfastslam\x1b[0m\n'}
+[0.581275] (openslam_gmapping) StdoutLine: {'line': b'[100%] Built target gridfastslam\n'}
+[0.602696] (-) TimerEvent: {}
+[0.607382] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[0.703346] (-) TimerEvent: {}
+[0.757863] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'install'}
+[0.786222] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yahboom/yahboomcar_ws/build/openslam_gmapping'], 'cwd': '/home/yahboom/yahboomcar_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yahboom'), ('OLDPWD', '/home/yahboom'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1567'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yahboom-virtual-machine:@/tmp/.ICE-unix/1547,unix/yahboom-virtual-machine:/tmp/.ICE-unix/1547'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae3af24f_b9f2_4324_9239_ea5db4abe30e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3NVRL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/yahboomcar_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.803425] (openslam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.804069] (-) TimerEvent: {}
+[0.804281] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[0.804403] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[0.804620] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/\n'}
+[0.805195] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping\n'}
+[0.805403] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid\n'}
+[0.805622] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h\n'}
+[0.805911] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h\n'}
+[0.806298] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h\n'}
+[0.806458] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/map.h\n'}
+[0.806844] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/particlefilter\n'}
+[0.807857] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h\n'}
+[0.808694] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor\n'}
+[0.809601] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry\n'}
+[0.810056] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h\n'}
+[0.810315] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h\n'}
+[0.810412] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base\n'}
+[0.810519] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h\n'}
+[0.810606] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h\n'}
+[0.810709] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range\n'}
+[0.811109] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h\n'}
+[0.811231] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h\n'}
+[0.811324] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam\n'}
+[0.811414] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h\n'}
+[0.811538] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h\n'}
+[0.811651] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx\n'}
+[0.811764] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/log\n'}
+[0.811878] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h\n'}
+[0.812028] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/log/configuration.h\n'}
+[0.812312] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher\n'}
+[0.812626] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h\n'}
+[0.812917] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h\n'}
+[0.813135] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h\n'}
+[0.814057] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils\n'}
+[0.815921] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/point.h\n'}
+[0.819640] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h\n'}
+[0.821285] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h\n'}
+[0.823385] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h\n'}
+[0.824839] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h\n'}
+[0.825822] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/stat.h\n'}
+[0.826074] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping\n'}
+[0.826603] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping\n'}
+[0.826891] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh\n'}
+[0.827149] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv\n'}
+[0.827470] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh\n'}
+[0.827850] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv\n'}
+[0.828515] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash\n'}
+[0.829156] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh\n'}
+[0.831209] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh\n'}
+[0.831957] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv\n'}
+[0.832124] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv\n'}
+[0.832247] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping\n'}
+[0.832355] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.832462] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.832538] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake\n'}
+[0.832641] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake\n'}
+[0.832794] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml\n'}
+[0.832907] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libgridfastslam.a\n'}
+[0.833304] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libscanmatcher.a\n'}
+[0.833588] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[0.833707] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[0.833898] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libsensor_base.a\n'}
+[0.834043] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[0.834129] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[0.834182] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libsensor_odometry.a\n'}
+[0.834245] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libsensor_range.a\n'}
+[0.834343] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libutils.a\n'}
+[0.834636] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[0.834811] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[0.835171] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[0.904714] (-) TimerEvent: {}
+[1.006063] (-) TimerEvent: {}
+[1.115092] (-) TimerEvent: {}
+[1.142167] (openslam_gmapping) JobEnded: {'identifier': 'openslam_gmapping', 'rc': 0}
+[1.150620] (slam_gmapping) JobStarted: {'identifier': 'slam_gmapping'}
+[1.175988] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'cmake'}
+[1.181708] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'build'}
+[1.182143] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yahboom/yahboomcar_ws/build/slam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/yahboom/yahboomcar_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yahboom'), ('OLDPWD', '/home/yahboom'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1567'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yahboom-virtual-machine:@/tmp/.ICE-unix/1547,unix/yahboom-virtual-machine:/tmp/.ICE-unix/1547'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae3af24f_b9f2_4324_9239_ea5db4abe30e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3NVRL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/yahboomcar_ws/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[1.215571] (-) TimerEvent: {}
+[1.309390] (slam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target transform\x1b[0m\n'}
+[1.315612] (-) TimerEvent: {}
+[1.321098] (slam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_gmapping\x1b[0m\n'}
+[1.376563] (slam_gmapping) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/transform.dir/src/transform.cpp.o\x1b[0m\n'}
+[1.385871] (slam_gmapping) StdoutLine: {'line': b'[ 75%] Built target slam_gmapping\n'}
+[1.416038] (-) TimerEvent: {}
+[1.517252] (-) TimerEvent: {}
+[1.618186] (-) TimerEvent: {}
+[1.720312] (-) TimerEvent: {}
+[1.821526] (-) TimerEvent: {}
+[1.922528] (-) TimerEvent: {}
+[2.024363] (-) TimerEvent: {}
+[2.125183] (-) TimerEvent: {}
+[2.226912] (-) TimerEvent: {}
+[2.313649] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:18\x1b[m\x1b[K,\n'}
+[2.314605] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[2.314765] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.314882] (slam_gmapping) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[2.314978] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.327320] (-) TimerEvent: {}
+[2.428675] (-) TimerEvent: {}
+[2.530365] (-) TimerEvent: {}
+[2.632111] (-) TimerEvent: {}
+[2.733111] (-) TimerEvent: {}
+[2.834014] (-) TimerEvent: {}
+[2.934774] (-) TimerEvent: {}
+[3.035718] (-) TimerEvent: {}
+[3.137034] (-) TimerEvent: {}
+[3.238397] (-) TimerEvent: {}
+[3.339136] (-) TimerEvent: {}
+[3.440261] (-) TimerEvent: {}
+[3.541552] (-) TimerEvent: {}
+[3.642467] (-) TimerEvent: {}
+[3.743323] (-) TimerEvent: {}
+[3.845023] (-) TimerEvent: {}
+[3.947044] (-) TimerEvent: {}
+[4.048678] (-) TimerEvent: {}
+[4.150699] (-) TimerEvent: {}
+[4.252312] (-) TimerEvent: {}
+[4.352976] (-) TimerEvent: {}
+[4.453932] (-) TimerEvent: {}
+[4.556022] (-) TimerEvent: {}
+[4.656781] (-) TimerEvent: {}
+[4.757509] (-) TimerEvent: {}
+[4.859340] (-) TimerEvent: {}
+[4.960402] (-) TimerEvent: {}
+[5.061895] (-) TimerEvent: {}
+[5.163036] (-) TimerEvent: {}
+[5.264283] (-) TimerEvent: {}
+[5.365712] (-) TimerEvent: {}
+[5.466937] (-) TimerEvent: {}
+[5.567689] (-) TimerEvent: {}
+[5.668467] (-) TimerEvent: {}
+[5.769527] (-) TimerEvent: {}
+[5.870181] (-) TimerEvent: {}
+[5.970809] (-) TimerEvent: {}
+[6.071627] (-) TimerEvent: {}
+[6.172579] (-) TimerEvent: {}
+[6.273354] (-) TimerEvent: {}
+[6.374129] (-) TimerEvent: {}
+[6.475125] (-) TimerEvent: {}
+[6.576040] (-) TimerEvent: {}
+[6.676926] (-) TimerEvent: {}
+[6.778444] (-) TimerEvent: {}
+[6.880026] (-) TimerEvent: {}
+[6.981333] (-) TimerEvent: {}
+[7.083267] (-) TimerEvent: {}
+[7.184646] (-) TimerEvent: {}
+[7.287270] (-) TimerEvent: {}
+[7.389156] (-) TimerEvent: {}
+[7.490430] (-) TimerEvent: {}
+[7.591569] (-) TimerEvent: {}
+[7.692475] (-) TimerEvent: {}
+[7.793169] (-) TimerEvent: {}
+[7.894167] (-) TimerEvent: {}
+[7.995665] (-) TimerEvent: {}
+[8.098114] (-) TimerEvent: {}
+[8.199842] (-) TimerEvent: {}
+[8.300907] (-) TimerEvent: {}
+[8.311993] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9\x1b[m\x1b[K,\n'}
+[8.312634] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[8.312736] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.312795] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.312847] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation\x07-Wmisleading-indentation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.312913] (slam_gmapping) StderrLine: {'line': b'  140 |         \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (count>0)\n'}
+[8.313010] (slam_gmapping) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.313064] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.313126] (slam_gmapping) StderrLine: {'line': b'  142 |                 \x1b[01;36m\x1b[Kout\x1b[m\x1b[K++;\n'}
+[8.313185] (slam_gmapping) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.401315] (-) TimerEvent: {}
+[8.502071] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTransform::Transform()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.503633] (-) TimerEvent: {}
+[8.505248] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:11:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTransform::declare_parameter(const char [14])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.508237] (slam_gmapping) StderrLine: {'line': b'   11 |     \x1b[01;31m\x1b[Kthis->declare_parameter("parents_frame")\x1b[m\x1b[K;\n'}
+[8.509486] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.509935] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.510161] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.510234] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.510299] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.510360] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.510422] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.510540] (slam_gmapping) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.510619] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.510710] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.510802] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:11:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.510890] (slam_gmapping) StderrLine: {'line': b'   11 |     \x1b[01;36m\x1b[Kthis->declare_parameter("parents_frame")\x1b[m\x1b[K;\n'}
+[8.510978] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.511080] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.511271] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.511439] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.511592] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.511696] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.511787] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.511899] (slam_gmapping) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.512006] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.512129] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.512224] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:11:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.512307] (slam_gmapping) StderrLine: {'line': b'   11 |     \x1b[01;36m\x1b[Kthis->declare_parameter("parents_frame")\x1b[m\x1b[K;\n'}
+[8.512391] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.512487] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.512620] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.512808] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.512924] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.513030] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.513150] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.513272] (slam_gmapping) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.513401] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.513523] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.513613] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.513714] (slam_gmapping) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.513983] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.514184] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.514299] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:12:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTransform::declare_parameter(const char [12])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.514417] (slam_gmapping) StderrLine: {'line': b'   12 |     \x1b[01;31m\x1b[Kthis->declare_parameter("child_frame")\x1b[m\x1b[K;\n'}
+[8.514533] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.514678] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.515308] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.515677] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.515903] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.516096] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.516273] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.516552] (slam_gmapping) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.516854] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.517021] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.517203] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:12:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.517332] (slam_gmapping) StderrLine: {'line': b'   12 |     \x1b[01;36m\x1b[Kthis->declare_parameter("child_frame")\x1b[m\x1b[K;\n'}
+[8.517446] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.517569] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.517961] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.518281] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.518602] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.518941] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.519163] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.519319] (slam_gmapping) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.519435] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.520103] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.520475] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:12:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.520748] (slam_gmapping) StderrLine: {'line': b'   12 |     \x1b[01;36m\x1b[Kthis->declare_parameter("child_frame")\x1b[m\x1b[K;\n'}
+[8.521026] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.521313] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.521447] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.521514] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.521641] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.521955] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.522415] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.522921] (slam_gmapping) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.523342] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.523534] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.523649] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.523786] (slam_gmapping) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.523856] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.523914] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.523963] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:13:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTransform::declare_parameter(const char [2])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.524007] (slam_gmapping) StderrLine: {'line': b'   13 |     \x1b[01;31m\x1b[Kthis->declare_parameter("x")\x1b[m\x1b[K;\n'}
+[8.524059] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.524107] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.524155] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.524212] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.524266] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.524323] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.524387] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.524467] (slam_gmapping) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.524521] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.524573] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.524649] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:13:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.524727] (slam_gmapping) StderrLine: {'line': b'   13 |     \x1b[01;36m\x1b[Kthis->declare_parameter("x")\x1b[m\x1b[K;\n'}
+[8.524861] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.524998] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.525099] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.525157] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.525202] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.525247] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.525293] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.525342] (slam_gmapping) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.525384] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.525426] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.525482] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:13:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.525578] (slam_gmapping) StderrLine: {'line': b'   13 |     \x1b[01;36m\x1b[Kthis->declare_parameter("x")\x1b[m\x1b[K;\n'}
+[8.525634] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.525702] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.525785] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.525827] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.525886] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.525945] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.526046] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.526130] (slam_gmapping) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.526179] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.526221] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.526275] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.526335] (slam_gmapping) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.526380] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.526427] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.526467] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:14:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTransform::declare_parameter(const char [2])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.526509] (slam_gmapping) StderrLine: {'line': b'   14 |     \x1b[01;31m\x1b[Kthis->declare_parameter("y")\x1b[m\x1b[K;\n'}
+[8.526578] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.526640] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.526714] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.526776] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.526849] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.526930] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.526987] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.527038] (slam_gmapping) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.527085] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.527128] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.527170] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:14:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.527213] (slam_gmapping) StderrLine: {'line': b'   14 |     \x1b[01;36m\x1b[Kthis->declare_parameter("y")\x1b[m\x1b[K;\n'}
+[8.527257] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.527297] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.527340] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.527380] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.527419] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.527456] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.527510] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.527603] (slam_gmapping) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.527727] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.527864] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.527992] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:14:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.528116] (slam_gmapping) StderrLine: {'line': b'   14 |     \x1b[01;36m\x1b[Kthis->declare_parameter("y")\x1b[m\x1b[K;\n'}
+[8.528263] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.528371] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.528417] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.528462] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.528530] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.528628] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.528727] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.528878] (slam_gmapping) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.529085] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.529325] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.529536] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.529626] (slam_gmapping) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.529727] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.530068] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.530349] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:15:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTransform::declare_parameter(const char [2])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.530713] (slam_gmapping) StderrLine: {'line': b'   15 |     \x1b[01;31m\x1b[Kthis->declare_parameter("z")\x1b[m\x1b[K;\n'}
+[8.531348] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.531698] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.531990] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.532087] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.532275] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.532398] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.532559] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.532648] (slam_gmapping) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.532717] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.532787] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.532876] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:15:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.532962] (slam_gmapping) StderrLine: {'line': b'   15 |     \x1b[01;36m\x1b[Kthis->declare_parameter("z")\x1b[m\x1b[K;\n'}
+[8.533050] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.533139] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.533250] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.533359] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.533460] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.533556] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.533653] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.533822] (slam_gmapping) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.533939] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.534022] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.534198] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:15:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.534352] (slam_gmapping) StderrLine: {'line': b'   15 |     \x1b[01;36m\x1b[Kthis->declare_parameter("z")\x1b[m\x1b[K;\n'}
+[8.534422] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.534490] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.534558] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.534620] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.534660] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.534701] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.534741] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.534787] (slam_gmapping) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.534832] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.534898] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.534957] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.535023] (slam_gmapping) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.535087] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.535157] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.535251] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:16:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTransform::declare_parameter(const char [5])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.535357] (slam_gmapping) StderrLine: {'line': b'   16 |     \x1b[01;31m\x1b[Kthis->declare_parameter("roll")\x1b[m\x1b[K;\n'}
+[8.535449] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.535544] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.535645] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.535750] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.535871] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.535998] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.536096] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.536194] (slam_gmapping) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.536291] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.536389] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.536495] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:16:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.536592] (slam_gmapping) StderrLine: {'line': b'   16 |     \x1b[01;36m\x1b[Kthis->declare_parameter("roll")\x1b[m\x1b[K;\n'}
+[8.536692] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.536843] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.537059] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.537376] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.537501] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.537612] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.537713] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.538170] (slam_gmapping) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.538290] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.538365] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.538439] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:16:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.538543] (slam_gmapping) StderrLine: {'line': b'   16 |     \x1b[01;36m\x1b[Kthis->declare_parameter("roll")\x1b[m\x1b[K;\n'}
+[8.538664] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.538788] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.538930] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.539070] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.539200] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.539338] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.539438] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.539570] (slam_gmapping) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.539625] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.539672] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.539734] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.539878] (slam_gmapping) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.539990] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.540087] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.540146] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:17:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTransform::declare_parameter(const char [6])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.540206] (slam_gmapping) StderrLine: {'line': b'   17 |     \x1b[01;31m\x1b[Kthis->declare_parameter("pitch")\x1b[m\x1b[K;\n'}
+[8.540256] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.540303] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.540352] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.540396] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.540439] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.540488] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.540549] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.540650] (slam_gmapping) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.540766] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.540892] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.540970] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:17:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.541018] (slam_gmapping) StderrLine: {'line': b'   17 |     \x1b[01;36m\x1b[Kthis->declare_parameter("pitch")\x1b[m\x1b[K;\n'}
+[8.541098] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.541181] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.541291] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.541421] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.541489] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.541571] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.541642] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.541942] (slam_gmapping) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.542030] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.542088] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.542141] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:17:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.542198] (slam_gmapping) StderrLine: {'line': b'   17 |     \x1b[01;36m\x1b[Kthis->declare_parameter("pitch")\x1b[m\x1b[K;\n'}
+[8.542277] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.542382] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.542485] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.542685] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.542836] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.542920] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.543000] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.543084] (slam_gmapping) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.543173] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.543250] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.543378] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.543470] (slam_gmapping) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.543546] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.543613] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.543716] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:18:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTransform::declare_parameter(const char [4])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.543832] (slam_gmapping) StderrLine: {'line': b'   18 |     \x1b[01;31m\x1b[Kthis->declare_parameter("yaw")\x1b[m\x1b[K;\n'}
+[8.543899] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.543954] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.544024] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.544120] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.544296] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.544388] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.544451] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.544521] (slam_gmapping) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.544595] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.544663] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.544726] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:18:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.544781] (slam_gmapping) StderrLine: {'line': b'   18 |     \x1b[01;36m\x1b[Kthis->declare_parameter("yaw")\x1b[m\x1b[K;\n'}
+[8.544829] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.544876] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.544930] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.544984] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.545037] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.545093] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.545150] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.545224] (slam_gmapping) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.545269] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.545309] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.545352] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:18:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.545396] (slam_gmapping) StderrLine: {'line': b'   18 |     \x1b[01;36m\x1b[Kthis->declare_parameter("yaw")\x1b[m\x1b[K;\n'}
+[8.545448] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.545488] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.545527] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.545565] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.545613] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10\x1b[m\x1b[K,\n'}
+[8.545683] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[8.545847] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.545962] (slam_gmapping) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.546015] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.546066] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.546135] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.546205] (slam_gmapping) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[8.546270] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.546340] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[8.603944] (-) TimerEvent: {}
+[8.704919] (-) TimerEvent: {}
+[8.805885] (-) TimerEvent: {}
+[8.907046] (-) TimerEvent: {}
+[9.008153] (-) TimerEvent: {}
+[9.109649] (-) TimerEvent: {}
+[9.211500] (-) TimerEvent: {}
+[9.312865] (-) TimerEvent: {}
+[9.415695] (-) TimerEvent: {}
+[9.517058] (-) TimerEvent: {}
+[9.617908] (-) TimerEvent: {}
+[9.718986] (-) TimerEvent: {}
+[9.820354] (-) TimerEvent: {}
+[9.921169] (-) TimerEvent: {}
+[10.021868] (-) TimerEvent: {}
+[10.122731] (-) TimerEvent: {}
+[10.223846] (-) TimerEvent: {}
+[10.324589] (-) TimerEvent: {}
+[10.425353] (-) TimerEvent: {}
+[10.526381] (-) TimerEvent: {}
+[10.628269] (-) TimerEvent: {}
+[10.729193] (-) TimerEvent: {}
+[10.794728] (slam_gmapping) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/transform.dir/build.make:76: CMakeFiles/transform.dir/src/transform.cpp.o] Error 1\n'}
+[10.796119] (slam_gmapping) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/transform.dir/all] Error 2\n'}
+[10.797212] (slam_gmapping) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.804469] (slam_gmapping) CommandEnded: {'returncode': 2}
+[10.830145] (-) TimerEvent: {}
+[10.931549] (-) TimerEvent: {}
+[11.004435] (slam_gmapping) JobEnded: {'identifier': 'slam_gmapping', 'rc': 2}
+[11.020498] (-) EventReactorShutdown: {}

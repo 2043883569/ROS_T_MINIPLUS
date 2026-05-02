@@ -1,0 +1,46 @@
+[0.056s] Invoking command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/slam_gmapping -- -j4 -l4
+[0.222s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[0.683s] In file included from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38[m[K,
+[0.684s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[0.684s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.684s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.684s]       |  [01;35m[K^~~~~~~[m[K
+[5.371s] In file included from [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[5.371s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[5.371s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[5.371s] [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[5.371s] [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[5.372s]   140 |         [01;35m[Kif[m[K (count>0)
+[5.372s]       |         [01;35m[K^~[m[K
+[5.372s] [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[5.372s]   142 |                 [01;36m[Kout[m[K++;
+[5.372s]       |                 [01;36m[K^~~[m[K
+[23.934s] [100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[25.332s] [100%] Built target slam_gmapping
+[25.376s] Invoked command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/slam_gmapping -- -j4 -l4
+[25.548s] Invoking command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/slam_gmapping
+[25.589s] -- Install configuration: ""
+[25.589s] -- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[25.601s] -- Set runtime path of "/home/yahboom/yahboomcar_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping" to ""
+[25.602s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/launch
+[25.603s] -- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[25.603s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/launch
+[25.603s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[25.603s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/params
+[25.603s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/params/slam_gmapping.yaml
+[25.603s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[25.603s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[25.603s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[25.603s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[25.604s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[25.604s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[25.604s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[25.604s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[25.604s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[25.604s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[25.604s] -- Installing: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[25.604s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[25.604s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[25.604s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[25.604s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[25.613s] Invoked command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/slam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/slam_gmapping

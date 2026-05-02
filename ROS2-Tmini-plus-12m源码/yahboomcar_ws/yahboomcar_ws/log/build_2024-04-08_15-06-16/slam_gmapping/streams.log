@@ -1,0 +1,427 @@
+[0.049s] Invoking command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/yahboom/yahboomcar_ws/src/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/yahboom/yahboomcar_ws/install/slam_gmapping
+[0.188s] -- The C compiler identification is GNU 11.4.0
+[0.314s] -- The CXX compiler identification is GNU 11.4.0
+[0.326s] -- Detecting C compiler ABI info
+[0.498s] -- Detecting C compiler ABI info - done
+[0.507s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.507s] -- Detecting C compile features
+[0.508s] -- Detecting C compile features - done
+[0.512s] -- Detecting CXX compiler ABI info
+[0.705s] -- Detecting CXX compiler ABI info - done
+[0.713s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.714s] -- Detecting CXX compile features
+[0.714s] -- Detecting CXX compile features - done
+[0.714s] [0m -fuse-ld=lld -Wl,--disable-new-dtags[0m
+[0.718s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.996s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.140s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.223s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.246s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.266s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.342s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.439s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.696s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[1.763s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.068s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.073s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.430s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.490s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.557s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.571s] -- Looking for pthread.h
+[2.806s] -- Looking for pthread.h - found
+[2.807s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.060s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.063s] -- Found Threads: TRUE  
+[3.916s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.984s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.992s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.993s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.013s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.114s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.257s] -- Found openslam_gmapping: 0.1.2 (/home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[4.261s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.403s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.404s] -- Configured cppcheck include dirs: /home/yahboom/yahboomcar_ws/src/slam_gmapping/include
+[4.404s] -- Configured cppcheck exclude dirs and/or files: 
+[4.405s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.406s] -- Added test 'lint_cmake' to check CMake code style
+[4.406s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.408s] -- Added test 'uncrustify' to check C / C++ code style
+[4.408s] -- Configured uncrustify additional arguments: 
+[4.409s] -- Added test 'xmllint' to check XML markup files
+[4.412s] -- Configuring done
+[4.422s] [33mCMake Warning (dev) at CMakeLists.txt:46 (add_executable):
+[4.422s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[4.422s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[4.422s]   command to set the policy and suppress this warning.
+[4.422s] 
+[4.423s]   File:
+[4.423s] 
+[4.423s]     /home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp
+[4.423s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.423s] [0m
+[4.471s] -- Generating done
+[4.474s] -- Build files have been written to: /home/yahboom/yahboomcar_ws/build/slam_gmapping
+[4.499s] Invoked command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/yahboom/yahboomcar_ws/src/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/yahboom/yahboomcar_ws/install/slam_gmapping
+[4.505s] Invoking command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/slam_gmapping -- -j4 -l4
+[4.690s] [ 50%] [32mBuilding CXX object CMakeFiles/transform.dir/src/transform.cpp.o[0m
+[4.690s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[5.839s] In file included from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38[m[K,
+[5.840s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[5.840s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[5.840s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[5.840s]       |  [01;35m[K^~~~~~~[m[K
+[5.840s] In file included from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:18[m[K,
+[5.840s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[5.840s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[5.840s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[5.841s]       |  [01;35m[K^~~~~~~[m[K
+[22.332s] In file included from [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[22.333s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[22.333s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[22.333s] [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[22.333s] [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[22.333s]   140 |         [01;35m[Kif[m[K (count>0)
+[22.333s]       |         [01;35m[K^~[m[K
+[22.333s] [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[22.333s]   142 |                 [01;36m[Kout[m[K++;
+[22.333s]       |                 [01;36m[K^~~[m[K
+[22.334s] In file included from [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[22.334s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[22.334s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[22.335s] [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[22.335s] [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[22.335s]   140 |         [01;35m[Kif[m[K (count>0)
+[22.336s]       |         [01;35m[K^~[m[K
+[22.336s] [01m[K/home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[22.336s]   142 |                 [01;36m[Kout[m[K++;
+[22.337s]       |                 [01;36m[K^~~[m[K
+[22.975s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:[m[K In constructor ‘[01m[KTransform::Transform()[m[K’:
+[22.976s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:11:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [14])[m[K’
+[22.976s]    11 |     [01;31m[Kthis->declare_parameter("parents_frame")[m[K;
+[22.977s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[22.978s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[22.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[22.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.979s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[22.980s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[22.980s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[22.981s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[22.981s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.982s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[22.982s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:11:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[22.982s]    11 |     [01;36m[Kthis->declare_parameter("parents_frame")[m[K;
+[22.982s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[22.982s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[22.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[22.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.983s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[22.983s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[22.983s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[22.983s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[22.984s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.984s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[22.985s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:11:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[22.985s]    11 |     [01;36m[Kthis->declare_parameter("parents_frame")[m[K;
+[22.985s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[22.985s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[22.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[22.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.985s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[22.985s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[22.985s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[22.985s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[22.985s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.985s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[22.985s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[22.985s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[22.986s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.986s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[22.986s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:12:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [12])[m[K’
+[22.986s]    12 |     [01;31m[Kthis->declare_parameter("child_frame")[m[K;
+[22.986s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[22.986s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[22.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[22.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.986s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[22.986s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[22.986s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[22.986s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[22.987s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.987s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[22.987s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:12:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[22.987s]    12 |     [01;36m[Kthis->declare_parameter("child_frame")[m[K;
+[22.987s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[22.987s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[22.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[22.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.987s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[22.987s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[22.988s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[22.988s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[22.988s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.988s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[22.988s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:12:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[22.988s]    12 |     [01;36m[Kthis->declare_parameter("child_frame")[m[K;
+[22.988s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[22.988s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[22.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[22.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.989s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[22.989s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[22.989s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[22.989s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[22.989s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.989s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[22.989s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[22.989s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[22.989s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.989s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[22.989s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:13:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [2])[m[K’
+[22.989s]    13 |     [01;31m[Kthis->declare_parameter("x")[m[K;
+[22.989s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[22.990s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[22.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[22.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.990s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[22.990s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[22.990s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[22.990s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[22.990s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.990s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[22.990s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:13:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[22.990s]    13 |     [01;36m[Kthis->declare_parameter("x")[m[K;
+[22.990s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[22.991s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[22.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[22.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.991s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[22.991s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[22.991s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[22.991s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[22.992s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.992s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[22.992s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:13:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[22.992s]    13 |     [01;36m[Kthis->declare_parameter("x")[m[K;
+[22.992s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[22.992s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[22.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[22.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.992s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[22.993s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[22.993s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[22.993s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[22.993s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.993s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[22.993s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[22.993s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[22.994s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.994s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[22.994s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:14:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [2])[m[K’
+[22.994s]    14 |     [01;31m[Kthis->declare_parameter("y")[m[K;
+[22.994s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[22.994s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[22.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[22.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[22.996s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[22.997s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[22.998s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[22.998s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[22.999s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.999s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[22.999s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:14:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.001s]    14 |     [01;36m[Kthis->declare_parameter("y")[m[K;
+[23.001s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[23.001s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.002s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.002s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.002s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[23.002s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[23.002s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.002s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[23.002s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:14:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[23.003s]    14 |     [01;36m[Kthis->declare_parameter("y")[m[K;
+[23.003s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[23.003s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.004s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.004s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.005s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[23.005s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[23.005s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.005s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.006s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[23.006s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[23.006s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.006s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.006s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:15:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [2])[m[K’
+[23.007s]    15 |     [01;31m[Kthis->declare_parameter("z")[m[K;
+[23.007s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[23.007s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.008s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.008s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.009s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[23.009s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[23.010s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.010s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[23.012s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:15:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.012s]    15 |     [01;36m[Kthis->declare_parameter("z")[m[K;
+[23.012s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[23.012s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.013s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.013s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.013s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[23.013s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[23.013s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.014s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[23.014s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:15:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[23.014s]    15 |     [01;36m[Kthis->declare_parameter("z")[m[K;
+[23.014s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[23.014s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.015s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.015s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.015s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[23.015s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[23.016s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.016s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.016s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[23.016s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[23.017s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.018s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.018s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:16:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [5])[m[K’
+[23.018s]    16 |     [01;31m[Kthis->declare_parameter("roll")[m[K;
+[23.019s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[23.019s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.019s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.020s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.020s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[23.020s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[23.020s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.020s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[23.020s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:16:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.021s]    16 |     [01;36m[Kthis->declare_parameter("roll")[m[K;
+[23.021s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[23.021s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.021s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.021s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.021s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[23.022s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[23.022s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.022s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[23.022s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:16:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[23.022s]    16 |     [01;36m[Kthis->declare_parameter("roll")[m[K;
+[23.022s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[23.022s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.023s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.023s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.023s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[23.023s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[23.023s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.023s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.024s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[23.024s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[23.024s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.024s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.024s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:17:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [6])[m[K’
+[23.024s]    17 |     [01;31m[Kthis->declare_parameter("pitch")[m[K;
+[23.024s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[23.025s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.025s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.025s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.025s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[23.025s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[23.025s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.026s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[23.026s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:17:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.026s]    17 |     [01;36m[Kthis->declare_parameter("pitch")[m[K;
+[23.026s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[23.027s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.027s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.027s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.027s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.027s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.027s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[23.028s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[23.028s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.028s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[23.028s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:17:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[23.028s]    17 |     [01;36m[Kthis->declare_parameter("pitch")[m[K;
+[23.028s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[23.028s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.029s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.029s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.029s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.029s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[23.029s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[23.029s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.030s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.031s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[23.032s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[23.033s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.033s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.033s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:18:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [4])[m[K’
+[23.033s]    18 |     [01;31m[Kthis->declare_parameter("yaw")[m[K;
+[23.033s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[23.034s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.034s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.034s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.034s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[23.034s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[23.034s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.035s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[23.035s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:18:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.035s]    18 |     [01;36m[Kthis->declare_parameter("yaw")[m[K;
+[23.036s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[23.036s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.036s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.036s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.036s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.036s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.037s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[23.037s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[23.037s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.037s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[23.037s] [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:18:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[23.037s]    18 |     [01;36m[Kthis->declare_parameter("yaw")[m[K;
+[23.037s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[23.037s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[23.037s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[23.037s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[23.037s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K,
+[23.037s]                  from [01m[K/home/yahboom/yahboomcar_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[23.038s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[23.038s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[23.038s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.038s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[23.038s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[23.038s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[23.038s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[23.038s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[30.776s] gmake[2]: *** [CMakeFiles/transform.dir/build.make:76: CMakeFiles/transform.dir/src/transform.cpp.o] Error 1
+[30.793s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/transform.dir/all] Error 2
+[30.793s] gmake[1]: *** Waiting for unfinished jobs....
+[44.755s] [ 75%] [32m[1mLinking CXX executable slam_gmapping[0m
+[46.290s] [ 75%] Built target slam_gmapping
+[46.294s] gmake: *** [Makefile:146: all] Error 2
+[46.299s] Invoked command in '/home/yahboom/yahboomcar_ws/build/slam_gmapping' returned '2': AMENT_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping:/home/yahboom/yahboomcar_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/slam_gmapping -- -j4 -l4

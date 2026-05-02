@@ -1,0 +1,120 @@
+[0.038s] Invoking command in '/home/yahboom/yahboomcar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yahboom/yahboomcar_ws/src/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/yahboom/yahboomcar_ws/install/openslam_gmapping
+[0.261s] -- The C compiler identification is GNU 11.4.0
+[0.392s] -- The CXX compiler identification is GNU 11.4.0
+[0.409s] -- Detecting C compiler ABI info
+[0.583s] -- Detecting C compiler ABI info - done
+[0.595s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.597s] -- Detecting C compile features
+[0.597s] -- Detecting C compile features - done
+[0.603s] -- Detecting CXX compiler ABI info
+[0.790s] -- Detecting CXX compiler ABI info - done
+[0.803s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.804s] -- Detecting CXX compile features
+[0.804s] -- Detecting CXX compile features - done
+[0.839s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.326s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.002s] -- Configuring done
+[2.038s] -- Generating done
+[2.042s] -- Build files have been written to: /home/yahboom/yahboomcar_ws/build/openslam_gmapping
+[2.058s] Invoked command in '/home/yahboom/yahboomcar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yahboom/yahboomcar_ws/src/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/yahboom/yahboomcar_ws/install/openslam_gmapping
+[2.064s] Invoking command in '/home/yahboom/yahboomcar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/openslam_gmapping -- -j4 -l4
+[2.182s] [  4%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[2.187s] [  9%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[2.187s] [ 13%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[2.188s] [ 18%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[3.351s] [ 22%] [32m[1mLinking CXX static library libsensor_base.a[0m
+[3.424s] [ 27%] [32m[1mLinking CXX static library libutils.a[0m
+[3.598s] [ 27%] Built target sensor_base
+[3.600s] [ 27%] Built target utils
+[3.660s] [ 31%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[3.661s] [ 36%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[3.664s] [ 40%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[3.687s] [ 45%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[4.930s] [ 50%] [32m[1mLinking CXX static library libsensor_odometry.a[0m
+[5.135s] [ 50%] Built target sensor_odometry
+[5.395s] [ 54%] [32m[1mLinking CXX static library libsensor_range.a[0m
+[5.514s] [ 54%] Built target sensor_range
+[5.570s] [ 59%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[5.575s] [ 63%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[5.584s] [ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[5.590s] [ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[8.831s] [ 77%] [32m[1mLinking CXX static library libscanmatcher.a[0m
+[9.003s] [ 77%] Built target scanmatcher
+[9.081s] [ 81%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[9.091s] [ 86%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[9.100s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[9.113s] [ 95%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[15.913s] [100%] [32m[1mLinking CXX static library libgridfastslam.a[0m
+[16.075s] [100%] Built target gridfastslam
+[16.109s] Invoked command in '/home/yahboom/yahboomcar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yahboom/yahboomcar_ws/build/openslam_gmapping -- -j4 -l4
+[16.299s] Invoking command in '/home/yahboom/yahboomcar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/openslam_gmapping
+[16.327s] -- Install configuration: ""
+[16.328s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[16.329s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[16.331s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include/
+[16.333s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping
+[16.333s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid
+[16.335s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[16.337s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[16.338s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[16.338s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+[16.338s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/particlefilter
+[16.339s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[16.339s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor
+[16.339s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry
+[16.339s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[16.339s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[16.339s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base
+[16.339s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[16.340s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[16.340s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range
+[16.340s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[16.340s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[16.340s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam
+[16.340s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[16.340s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[16.340s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[16.340s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/log
+[16.341s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[16.341s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+[16.341s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher
+[16.341s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[16.341s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[16.341s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[16.341s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils
+[16.342s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+[16.342s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[16.342s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[16.342s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[16.342s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[16.342s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+[16.344s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[16.345s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[16.350s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[16.350s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[16.350s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[16.350s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[16.350s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[16.350s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[16.351s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[16.351s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[16.351s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[16.351s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[16.352s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[16.352s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.352s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[16.352s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[16.352s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[16.354s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libgridfastslam.a
+[16.354s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libscanmatcher.a
+[16.355s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[16.355s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[16.355s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libsensor_base.a
+[16.356s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[16.356s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[16.356s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+[16.358s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libsensor_range.a
+[16.358s] -- Installing: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/lib/libutils.a
+[16.358s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[16.359s] -- Up-to-date: /home/yahboom/yahboomcar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[16.364s] Invoked command in '/home/yahboom/yahboomcar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yahboom/yahboomcar_ws/build/openslam_gmapping
